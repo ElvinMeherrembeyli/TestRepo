@@ -1,0 +1,36 @@
+.container{
+    width: 1100px;
+    margin: 0px auto;
+    .navbar{
+        background-color: black;
+        opacity: 0.6;
+        display: flex;
+        justify-content: space-between;
+        .logo{
+            display: inline-block;
+            width: 200px;
+            height: 100px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        .panel {
+            display: flex;
+            align-items: center;
+            .menu ul{
+                display: inline-block;
+                color: white;
+                li{
+                    display: inline-block;
+                    margin: 0px 6px;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+        }
+
+    }
+}
